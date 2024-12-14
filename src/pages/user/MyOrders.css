@@ -1,0 +1,74 @@
+.my-orders {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .animated-table3 {
+    margin: 10% auto 2%;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .animated-table3 th,
+  .animated-table3 td {
+    border: 1px solid #030303;
+    padding: 10px;
+    font-family: "Sitka Small Semibold", Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .animated-table3 th {
+    background-color: rgb(165, 81, 141);
+    color: #333;
+    font-size: 25px;
+  }
+  
+  .animated-table3 tr:nth-child(even) {
+    background-color: rgb(249, 191, 233);
+  }
+  
+  .animated-table3 tr:nth-child(odd) {
+    background-color: rgb(227, 199, 216);
+  }
+  
+  
+  .product-image1 {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .status-delivered {
+    background-color: lightgreen;
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-shipped {
+    background-color: lightblue;
+    color: blue;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-pending {
+    background-color: lightyellow;
+    color: goldenrod;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .status-cancelled {
+    background-color: lightcoral;
+    color: red;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }

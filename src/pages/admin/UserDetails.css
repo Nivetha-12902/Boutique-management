@@ -1,0 +1,34 @@
+/* Scoped styles for the animated table */
+.animated-table2 {
+    margin: 10% auto 2%; /* Center the table horizontally */
+    width: 80%; /* Reduce the width to 80% of the container */
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc; /* Add border to the table */
+  }
+  
+  .animated-table2 th,
+  .animated-table2 td {
+    border: 1px solid #030303; /* Add border to table cells */
+    padding: 10px;
+    font-family: "Sitka Small Semibold", Arial, sans-serif; /* Font styling */
+    text-align: center; /* Center align text */
+  }
+  
+  .animated-table2 th {
+    background-color: rgb(165, 81, 141); /* Light gray background for header */
+    color: #333; /* Dark text for contrast */
+    font-size: 25px; /* Larger font size for headers */
+  }
+  
+  .animated-table2 tr:nth-child(even) {
+    background-color: rgb(249, 191, 233); /* Light gray background for even rows */
+  }
+  
+  .animated-table2 tr:nth-child(odd) {
+    background-color: rgb(227, 199, 216); /* White background for odd rows */
+  }
+  
+  
+  

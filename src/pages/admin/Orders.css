@@ -1,0 +1,47 @@
+.orders-container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .orders-title {
+    font-family: "Sitka Small Semibold";
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .animated-table1 {
+    margin: 10% auto 2%; /* Center the table horizontally */
+    width: 100%; /* Reduce the width to 80% of the container */
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc; /* Add border to the table */
+  }
+  
+  .animated-table1 th,
+  .animated-table1 td {
+    border: 1px solid #0c0b0b; /* Add border to table cells */
+    padding: 10px;
+    font-family: "Sitka Small Semibold", serif;
+    text-align: center; /* Center align text */
+  }
+  
+  .animated-table1 th {
+    background-color: rgb(165, 81, 141);
+    color: #333;
+    font-size: 25px;
+  }
+  
+  .animated-table1 tr:nth-child(even) {
+    background-color: rgb(249, 191, 233);
+  }
+  
+  .animated-table1 tr:nth-child(odd) {
+    background-color: rgb(227, 199, 216);
+  }
+  
+  
+  

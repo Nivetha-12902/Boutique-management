@@ -1,0 +1,49 @@
+.animated-table {
+    margin: 10% auto 2%; /* Center the table horizontally */
+    width: 80%; /* Reduce the width to 80% of the container */
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc; /* Add border to the table */
+    
+  }
+  
+  .animated-table th,
+  .animated-table td {
+    border: 1px solid #0e0a0a; /* Add border to table cells */
+    padding: 10px;
+    font-family: "Sitka Small Semibold";
+    text-align: center; /* Center align text */
+  }
+  
+  .animated-table th {
+    background-color: rgb(165, 81, 141);
+    color: #fcf6f6;
+    font-size: 25px;
+  }
+  
+  .animated-table tr:nth-child(even) {
+    background-color: rgb(249, 191, 233);
+  }
+  
+  .animated-table tr:nth-child(odd) {
+    background-color: rgb(227, 199, 216);
+  }
+  
+  
+  .product-image {
+    width: 100px; /* Set the image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners */
+    object-fit: cover; /* Ensure images are cropped consistently */
+  }
+  .in-stock {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+  }
+  

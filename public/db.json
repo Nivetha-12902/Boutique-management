@@ -1,0 +1,549 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": "2",
+      "name": "User",
+      "email": "user@gmail.com",
+      "password": "User@123"
+    }
+  ],
+  "products": {
+    "womenDress": [
+      {
+        "id": 1,
+        "name": "Lehanga",
+        "price": "Rs.2000",
+        "imgSrc": "lehanga.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A beautifully embroidered lehanga perfect for weddings and festive occasions."
+      },
+      {
+        "id": 2,
+        "name": "Saree",
+        "price": "Rs.800",
+        "imgSrc": "saree.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "An elegant saree with vibrant colors, ideal for traditional events."
+      },
+      {
+        "id": 3,
+        "name": "Top",
+        "price": "Rs.500",
+        "imgSrc": "top.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A stylish and comfortable top for casual outings."
+      },
+      {
+        "id": 4,
+        "name": "Kurti",
+        "price": "Rs.650",
+        "imgSrc": "kurtis.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A chic kurti designed for everyday wear with a modern touch."
+      },
+      {
+        "id": 5,
+        "name": "Chudi",
+        "price": "Rs.750",
+        "imgSrc": "chudi.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "Traditional chudi with intricate designs to enhance your ethnic look."
+      },
+      {
+        "id": 6,
+        "name": "Partywear",
+        "price": "Rs.1000",
+        "imgSrc": "partywearwomen.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "Glamorous partywear that ensures you stand out at any celebration."
+      },
+      {
+        "id": 7,
+        "name": "Frock",
+        "price": "Rs.700",
+        "imgSrc": "womenfrock.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A trendy frock that combines comfort and fashion effortlessly."
+      },
+      {
+        "id": 8,
+        "name": "Jumpsuit",
+        "price": "Rs.550",
+        "imgSrc": "jumpsuit.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A sleek jumpsuit for a modern, bold look."
+      }
+    ],
+    "menDress": [
+      {
+        "id": "1",
+        "name": "Shirt",
+        "price": "Rs.500",
+        "imgSrc": "shirt.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A classic and versatile shirt that pairs perfectly with any outfit."
+      },
+      {
+        "id": "2",
+        "name": "Jeans",
+        "price": "Rs.800",
+        "imgSrc": "jean.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "Durable and stylish jeans designed for comfort and everyday wear."
+      },
+      {
+        "id": "3",
+        "name": "Kurta Pyjama",
+        "price": "Rs.1000",
+        "imgSrc": "kurta pyjama.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "An elegant kurta pyjama set for traditional and festive occasions."
+      },
+      {
+        "id": "4",
+        "name": "Blazer",
+        "price": "Rs.1500",
+        "imgSrc": "blazermen.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A sharp blazer for formal events, adding a touch of sophistication."
+      },
+      {
+        "id": "5",
+        "name": "Tshirt",
+        "price": "Rs.250",
+        "imgSrc": "men tshirt.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A comfortable and casual t-shirt, perfect for everyday use."
+      },
+      {
+        "id": "6",
+        "name": "Men-Shorts",
+        "price": "Rs.300",
+        "imgSrc": "mens shorts.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "Lightweight and breathable shorts ideal for warm weather and relaxation."
+      },
+      {
+        "id": "7",
+        "name": "Hoodie",
+        "price": "Rs.700",
+        "imgSrc": "hoddiemen.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "A cozy hoodie designed to keep you warm and stylish in cooler weather."
+      },
+      {
+        "id": "8",
+        "name": "Baggy Jean",
+        "price": "Rs.900",
+        "imgSrc": "baggy.jpg",
+        "size":"Size: XS,S,L,XL,XXL",
+        "description": "Trendy baggy jeans offering a relaxed fit and modern style."
+      }
+    ],
+
+    "kidsDress": [
+      {
+        "id": "1",
+        "name": "Boykid Casual",
+        "price": "Rs.600",
+        "imgSrc": "boykid casual1.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A trendy and comfortable casual outfit for boys, perfect for everyday wear."
+      },
+      {
+        "id": "2",
+        "name": "Girlkid Casual",
+        "price": "Rs.750",
+        "imgSrc": "girlkids casual.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A stylish casual outfit for girls, combining comfort and charm for daily activities."
+      },
+      {
+        "id": "3",
+        "name": "Boykid Partywear",
+        "price": "Rs.1000",
+        "imgSrc": "boykid party.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A smart partywear outfit for boys, ideal for festive occasions and celebrations."
+      },
+      {
+        "id": "4",
+        "name": "Girlkid Partywear",
+        "price": "Rs.1500",
+        "imgSrc": "girlkids party.jpg",
+        "size":"Size: XS,S,L",
+        "description": "An elegant partywear dress for girls, perfect for birthdays and special events."
+      },
+      {
+        "id": "5",
+        "name": "Boykid Tshirt",
+        "price": "Rs.250",
+        "imgSrc": "boykid tshirt.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A cool and comfortable t-shirt for boys, great for casual outings and playtime."
+      },
+      {
+        "id": "6",
+        "name": "Girlkid Frock",
+        "price": "Rs.400",
+        "imgSrc": "girlkids frock.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A lovely frock for girls, designed with vibrant colors and soft fabric for any occasion."
+      },
+      {
+        "id": "7",
+        "name": "Boykid Vesti Set",
+        "price": "Rs.1200",
+        "imgSrc": "boykid vesti.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A traditional vesti set for boys, perfect for cultural and festive events."
+      },
+      {
+        "id": "8",
+        "name": "Girlkid Choli",
+        "price": "Rs.1350",
+        "imgSrc": "girlkid choli.jpg",
+        "size":"Size: XS,S,L",
+        "description": "A gorgeous choli set for girls, ideal for weddings and festive celebrations."
+      }
+    ]
+  },
+  "table": {
+    "orders": [
+      {
+        "id": 101010,
+        "product": "Shirt",
+        "price": "Rs.500",
+        "orderdate": "01-11-2024",
+        "deliverydate": "05-11-2024",
+        "status": "Delivered",
+        "image": "shirt.jpg"
+      },
+      {
+        "id": 102020,
+        "product": "Frock",
+        "price": "Rs.700",
+        "orderdate": "02-11-2024",
+        "deliverydate": "06-11-2024",
+        "status": "Shipped",
+        "image": "womenfrock.jpg"
+      },
+      {
+        "id": 103030,
+        "product": "Blazers",
+        "price": "Rs.1500",
+        "orderdate": "03-11-2024",
+        "deliverydate": "07-11-2024",
+        "status": "Cancelled",
+        "image": "blazermen.jpg"
+      },
+      {
+        "id": 104040,
+        "product": "Boy Kid Vesti Set",
+        "price": "Rs.1200",
+        "orderdate": "04-11-2024",
+        "deliverydate": "08-11-2024",
+        "status": "Shipped",
+        "image": "boykid vesti.jpg"
+      },
+      {
+        "id": 105050,
+        "product": "Girl Kid Partywear",
+        "price": "Rs.1500",
+        "orderdate": "05-11-2024",
+        "deliverydate": "09-11-2024",
+        "status": "Cancelled",
+        "image": "girlkids party.jpg"
+      },
+      {
+        "id": 106060,
+        "product": "Jumpsuit",
+        "price": "Rs.550",
+        "orderdate": "06-11-2024",
+        "deliverydate": "10-11-2024",
+        "status": "Delivered",
+        "image": "jumpsuit.jpg"
+      }
+    ],
+    "stock": {
+      "headers": [
+        {"name":"Product ID"},
+        { "name": "Product" },
+        { "name": "Description" },
+        { "name": "Price" },
+        { "name": "Availability" }
+      ],
+
+      "data": [
+        {
+          "productid":"101",
+          "product": "Lehanga",
+          "description": "Grand Gown",
+          "price": "Rs.2000",
+          "availability": "In Stock"
+        },
+        {
+          "productid": "102",
+          "product": "Saree",
+          "description": "Elegant Red",
+          "price": "Rs.800",
+          "availability": "In Stock"
+        },
+       
+        {
+          "productid": "103",
+          "product": "Partywear",
+          "description": "Silky Marron",
+          "price": "Rs.1000",
+          "availability": "In Stock"
+        },
+        { 
+          "productid": "104",
+        "product": "Kurta Pyjama", 
+        "description": "Trendy Orange",
+         "price": "Rs.1000",
+          "availability": "Out of Stock"
+         },
+        {
+          "productid": "105",
+          "product": "Men-Shorts",
+         "description": "Poly Olive Green",
+          "price": "Rs.300",
+           "availability": "In Stock" 
+          },
+        { 
+          "productid": "106",  
+        "product": "Hoddie",
+         "description": "Soft Grey",
+          "price": "Rs.700",
+           "availability": "In Stock" 
+          },
+        { 
+          "productid": "107",  
+        "product": "Baggy Jean", 
+        "description": "Denim Blue",
+         "price": "Rs.900",
+          "availability": "In Stock" 
+        },
+        {
+          "productid": "108",
+          "product": "Boy Kid Casual",
+         "description": "Cotton Blue", 
+         "price": "Rs.600", 
+         "availability": "Out of Stock" 
+        },
+        {
+          "productid": "109",
+           "product": "Girl Kid Casual",
+         "description": "Poly Grey",
+          "price": "Rs.750",
+           "availability": "In Stock" 
+          },
+        {
+          "productid": "1010",
+          "product": "Girl Kid Partywear",
+         "description": "Elegant Yellow",
+          "price": "Rs.1500",
+           "availability": "Out of Stock" 
+          },
+        { 
+          "productid": "1011",  
+        "product": "Girl Kid Choli",
+         "description": "Silky Red",
+          "price": "Rs.1350", 
+          "availability": "In Stock" 
+        }
+       ]
+      },
+    "payment": {
+      "headers": [
+        { "name": "Customer ID" },
+        { "name": "Name" },
+        { "name": "Product" },
+        { "name": "Quantity" },
+        { "name": "Price" },
+        { "name": "Payment Mode" },
+        {"name": "Status"}
+      ],
+      "data": [
+        { 
+          "customerid": "1001",
+         "name": "Kumar", 
+         "product": "Shirt", 
+         "quantity": "1",
+          "price": "Rs.500",
+          "status":"Delivered",
+           "paymentmode": "Cash" 
+          },
+        { 
+          "customerid": "1002", 
+        "name": "Sumu", 
+        "product": "Saree", 
+        "quantity": "1",
+         "price": "Rs.800", 
+         "status":"Shipped",
+         "paymentmode": "Gpay" 
+        },
+        {
+         "customerid": "1003",
+        "name": "Roshan", 
+         "product": "Blazer",
+          "quantity": "1",
+           "price": "Rs.1500", 
+           "status":"Delivered",
+           "paymentmode": "Cash" 
+          },
+        {
+           "customerid": "1004",
+         "name": "Nive",
+          "product": "Lehanga",
+          "quantity": "1", 
+          "price": "Rs.2000",
+          "status":"Shipped",
+          "paymentmode": "Cash" 
+          },
+        { 
+          "customerid": "1005",
+         "name": "Joe", 
+         "product": "Chudi", 
+         "quantity": "2", 
+         "price": "Rs.1500", 
+         "status":"Pending",
+         "paymentmode": "Phonepe" 
+        },
+        { 
+        "customerid": "1006",
+         "name": "Paul",
+          "product": "Shorts",
+           "quantity": "3", 
+           "price": "Rs.900",
+           "status":"Pending", 
+           "paymentmode": "Paytm"
+           },
+        { 
+           "customerid": "1007",
+         "name": "Smith",
+          "product": "Boy Kid Tsuit", 
+          "quantity": 1, 
+          "price": "Rs.250",
+          "status":"Cancelled",
+           "paymentmode": "Phonepe" 
+          },
+        { 
+          "customerid": "1008",
+         "name": "Vijaya", 
+        "product": "Girl Kid Partywear",
+          "quantity": "1", 
+          "price": "Rs.1500", 
+          "status":"Delivered",
+          "paymentmode": "Cash" 
+        },
+        { 
+        "customerid": "1009",
+         "name": "Jayapal",
+          "product": "Tshirt",
+           "quantity": "1",
+            "price": "Rs.250",
+            "status":"Shipped",
+             "paymentmode": "Gpay" 
+            },
+        { 
+          "customerid": "1010",
+         "name": "Varsh", 
+         "product": "Top",
+          "quantity": "2",
+           "price": "Rs.1000", 
+           "status":"Delivered",
+           "paymentmode": "Paytm" 
+          }
+      ]
+    },
+    "userDetails":{
+      "headers":[
+        { "name": "ID" },
+        { "name": "Name" },
+        { "name": "Email" },
+        { "name": "Date" },
+        { "name": "Activity" }
+      ],
+      "data":[
+        {
+         "id": "1",
+         "name": "John Doe",
+          "email": "johndoe@example.com",
+           "date": "2024-12-15",
+            "activity": "New Customer"
+          },
+        {
+           "id": 2,
+          "name": "Jane Smith", 
+          "email": "janesmith@example.com",
+           "date": "2024-12-14",
+           "activity": "Visited" 
+          },
+        { 
+          "id": "3", 
+          "name": "Smith", 
+          "email": "smith@example.com",
+           "date": "2024-12-13", 
+           "activity": "New Customer"
+           },
+        { 
+          "id": "4",
+         "name": "Jane", 
+         "email": "jane@example.com",
+          "date": "2024-11-12",
+           "activity": "New Customer" 
+          },
+        {
+          "id": "5",
+         "name": "John",
+          "email": "john@example.com",
+           "date": "2024-11-11",
+            "activity": "New Customer"
+           },
+        { 
+          "id": "6",
+          "name": "Doe", 
+          "email": "doe@example.com",
+           "date": "2024-11-11", 
+           "activity": "Visited"
+           },
+        { 
+          "id": "7",
+           "name": "Andrew",
+            "email": "andrew@example.com", 
+            "date": "2024-11-10",
+             "activity": "Visited" 
+            },
+        { 
+        "id": "8", 
+        "name": "Dora",
+         "email": "dora@example.com", 
+         "date": "2024-11-09",
+          "activity": "New Customer"
+         },
+        { 
+          "id": "9", 
+        "name": "Diana", 
+        "email": "diana@example.com", 
+        "date": "2024-11-08", 
+        "activity": "Visited" 
+      },
+        { 
+          "id": "10",
+         "name": "Debi",
+          "email": "debi@example.com",
+           "date": "2024-11-06", 
+           "activity": "Visited" 
+          }
+      ]
+      }
+    }
+  }

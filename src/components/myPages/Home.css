@@ -1,0 +1,22 @@
+/* Responsive carousel styling */
+.responsive-carousel {
+    width: 100%; /* Full width of the screen */
+    max-width: 1200px; /* Optional max width for larger screens */
+    margin: 0 auto; /* Center the carousel on the page */
+  }
+  
+  .carousel-img {
+    height: 50%;
+    width: 100%; /* Ensures images scale to fit carousel width */
+    object-fit: cover;
+     /* Ensures images cover the area without distortion */
+  }
+  
+  
+  /* Adjust height for smaller screens */
+  @media (max-width: 768px) {
+    .carousel-img {
+      height: 40vh; /* Smaller height for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.landing-container1 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container fills the full viewport height */
+    min-width: 100vw; /* Ensures the container fills the full viewport width */
+    background-color: rgb(225, 211, 221);
+    background-image: url("../../assets/about.jpg");
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+  }
+  
+  
+  .landing-content1 {
+    flex: 1;
+    /* padding: 20px; */
+    text-align: center;
+  }
+  /* Main content padding to prevent overlap with fixed header and navbar */
+.main-content {
+  padding-top: 120px; /* Adjust based on the combined height of header and navbar */
+}

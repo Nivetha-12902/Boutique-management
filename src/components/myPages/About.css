@@ -1,0 +1,126 @@
+.about-us-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: rgb(225, 211, 221);
+  }
+  
+  .about-us-container {
+    display: flex;
+    width: 1300px;
+    padding: 10px;
+    background-color:rgb(235, 190, 222);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 130px;
+  }
+  
+  .about-us-image {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .about-us-content {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .about-us-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  /* Team Section */
+  .team-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1300px;
+  }
+  
+  .team-member {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .team-card {
+    background-color: rgb(235, 190, 222);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-front {
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .team-designation {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .team-back {
+    text-align: center;
+  }
+  
+  .testimonial {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .quote-left, .quote-right {
+    font-size: 12px;
+    color: #777;
+  }
+  

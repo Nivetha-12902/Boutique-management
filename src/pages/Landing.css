@@ -1,0 +1,16 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(225, 211, 221);
+  }
+  
+  .landing-content {
+    flex: 1;
+    /* padding: 20px; */
+    text-align: center;
+  }
+  /* Main content padding to prevent overlap with fixed header and navbar */
+.main-content {
+  padding-top: 120px; /* Adjust based on the combined height of header and navbar */
+}

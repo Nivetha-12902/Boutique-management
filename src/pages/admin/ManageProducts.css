@@ -1,0 +1,131 @@
+   .manage-products {
+    font-family: "Sitka Small Semibold";
+    color: #333;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .addtable {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 110px;
+  }
+  
+  .add-product-btn {
+    background-color: #9a2c67 !important;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #75244f !important;
+  }
+  
+  .edit-btn {
+    background-color: #c46899 !important;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #eb4a9f !important;
+  }
+  
+  .delete-btn {
+    background-color: #9a2c67 !important;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #75244f !important;
+  }
+  
+  .save-btn {
+    background-color:  #9a2c67 !important;
+    color: white;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .save-btn:hover {
+    background-color: #75244f !important;
+  }
+  
+  .cancel-btn {
+    background-color:  #c46899 !important;
+    color: white;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #eb4a9f !important;
+  }
+  
+  /* Custom table styling */
+  .manage-products .products-table {
+    margin: 10% auto 2%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .manage-products .products-table th,
+  .manage-products .products-table td {
+    border: 1px solid #0c0b0b;
+    padding: 10px;
+    font-family: "Sitka Small Semibold", serif;
+  }
+  
+  .manage-products .products-table th {
+    background-color: rgb(165, 81, 141) !important;
+    color: #0e0e0e !important;
+    font-size: 20px;
+  }
+  
+  .manage-products .products-table tbody tr:nth-child(even) {
+    background-color: rgb(249, 191, 233) !important;
+  }
+  
+  .manage-products .products-table tbody tr:nth-child(odd) {
+    background-color: rgb(227, 199, 216) !important;
+  }
+  
+  .manage-products .products-table tbody tr:hover {
+    background-color: #ce82bb !important;
+  }
+  
+  /* Modal styling */
+  .product-modal .modal-header {
+    background-color: rgb(165, 81, 141) !important;
+    color: white;
+    font-family: "Sitka Small Semibold";
+  }
+  
+  .product-modal .modal-footer button {
+    min-width: 100px;
+    font-size: 14px;
+  }
+  
